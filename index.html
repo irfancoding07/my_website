@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>your presonal password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+
+            <li>Home</li>
+            <li>project</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>password manager</h1>
+        <p>Welcome to your Password Manager
+Strong security made easy. Store passwords safely, generate strong credentials, and stay protected online.</p>
+      <h2>your password</h2>
+    <div id="alert" class="alert hidden">Copied!</div>
+
+
+  <table>
+  <tr>
+    <th>Webiste</th>
+    <th>Username</th>
+    <th>Password</th>
+    <th>Delete</th>
+  </tr>
+  
+</table>
+      <h2>Add a password</h2>
+
+      <form action="/submit" method="post">
+    <!-- Text input for username -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+    <br><br>
+
+    <!-- Text input for website -->
+    <label for="website">website:</label>
+    <input type="text" id="website" name="website" required>
+    <br><br>
+
+    <!-- Password input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br>
+
+    <!-- Submit button -->
+   <button class="btn" type="submit">Submit</button>
+</form>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
